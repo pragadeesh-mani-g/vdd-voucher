@@ -249,7 +249,7 @@
             <footer class="footer container-fluid pl-30 pr-30">
                 <div class="row">
                     <div class="col-sm-12">
-                        <p>2017 &copy; Hound. Pampered by Hencework</p>
+                        <p> <a href="http://www.viswadevji.in/" target="_blank">Viswa And Devji</a>© Copyright 2018 | All Rights Rerved | Designed & Developed By <a href="http://episodetechnologies.com/" target="_blank">Episode Technologies</a></p>
                     </div>
                 </div>
             </footer>
