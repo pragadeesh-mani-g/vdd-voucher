@@ -117,12 +117,6 @@
 						<div class="clearfix"></div>
 					</a>
 				</li>
-				<li>
-					<a href="#">
-						<div class="pull-left"><i class="zmdi zmdi-delete mr-20"></i><span class="right-nav-text">Delete Admin</span></div>
-						<div class="clearfix"></div>
-					</a>
-				</li>
 				<li class="navigation-header">
 					<span>User</span> 
 					<i class="zmdi zmdi-more"></i>
@@ -139,12 +133,6 @@
 						<div class="clearfix"></div>
 					</a>
 				</li>
-				<li>
-					<a href="#">
-						<div class="pull-left"><i class="zmdi zmdi-delete mr-20"></i><span class="right-nav-text">Delete User</span></div>
-						<div class="clearfix"></div>
-					</a>
-				</li>
 				<li class="navigation-header">
 					<span>Store Login</span> 
 					<i class="zmdi zmdi-more"></i>
@@ -158,12 +146,6 @@
 				<li>
 					<a href="#">
 						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Store Login</span></div>
-						<div class="clearfix"></div>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<div class="pull-left"><i class="zmdi zmdi-delete mr-20"></i><span class="right-nav-text">Delete Store Login</span></div>
 						<div class="clearfix"></div>
 					</a>
 				</li>
@@ -186,12 +168,6 @@
 				<li>
 					<a href="#">
 						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Voucher</span></div>
-						<div class="clearfix"></div>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<div class="pull-left"><i class="zmdi zmdi-delete mr-20"></i><span class="right-nav-text">Delete Voucher</span></div>
 						<div class="clearfix"></div>
 					</a>
 				</li>
