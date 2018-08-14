@@ -133,7 +133,7 @@
 						<i class="zmdi zmdi-more"></i>
 					</li>
 					<li>
-						<a class="active" href="add-admin.php">
+						<a href="add-admin.php">
 							<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Admin</span></div>
 							<div class="clearfix"></div>
 						</a>
@@ -177,7 +177,7 @@
 						<i class="zmdi zmdi-more"></i>
 					</li>
 					<li>
-						<a href="add-storelogin.php">
+						<a  href="add-storelogin.php">
 							<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Store Login</span></div>
 							<div class="clearfix"></div>
 						</a>
@@ -199,7 +199,7 @@
 						<i class="zmdi zmdi-more"></i>
 					</li>
 					<li>
-						<a href="add-voucher.php">
+						<a class="active" href="add-voucher.php">
 							<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Voucher</span></div>
 							<div class="clearfix"></div>
 						</a>
@@ -238,15 +238,15 @@
 					<!-- Title -->
 					<div class="row heading-bg">
 						<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-							<h5 class="txt-dark">Add Admin</h5>
+							<h5 class="txt-dark">Add Voucher</h5>
 						</div>
 					
 						<!-- Breadcrumb -->
 						<div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
 							<ol class="breadcrumb">
 								<li><a href="index.php">Dashboard</a></li>
-								<li><a href="admintable.php"><span>Admin Table</span></a></li>
-								<li class="active"><span>Add Admin</span></li>
+								<li><a href="admintable.php"><span>Voucher Table</span></a></li>
+								<li class="active"><span>Create Voucher</span></li>
 							</ol>
 						</div>
 						<!-- /Breadcrumb -->
@@ -260,7 +260,7 @@
 							<div class="panel panel-default card-view">
 								<div class="panel-heading">
 									<div class="pull-left">
-										<h6 class="panel-title txt-dark">Add Admin</h6>
+										<h6 class="panel-title txt-dark">Create Voucher</h6>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -277,12 +277,6 @@
 													</div>
 													<div class="col-md-12">
 														<div class="form-group">
-															<label class="control-label mb-10">User Name</label>
-															<input type="text" class="form-control" name="username" id="username">
-														</div>	
-													</div>
-													<div class="col-md-12">
-														<div class="form-group">
 															<label class="control-label mb-10">Email Id</label>
 															<input type="text" class="form-control" name="emailid" id="emailid">
 														</div>	
@@ -295,8 +289,9 @@
 													</div>
 													<div class="col-md-12">
 														<div class="form-group">
-															<label class="control-label mb-10">Password</label>
-															<input type="text" class="form-control" name="password" id="password">
+															<label class="control-label mb-10">Address</label>
+															<textarea class="form-control" name="address" id="address" rows="5"></textarea>
+															<!-- <input type="text" class="form-control" id="mobilenumber" id="mobilenumber"> -->
 														</div>	
 													</div>
 													<div class="col-md-12">
@@ -309,14 +304,14 @@
 														</div>	
 													</div>
 													<div class="col-md-12">
-														<div class="form-group mb-30">
-															<label class="control-label mb-10 text-left">Admin Picture</label>
-															<div class="fileinput fileinput-new input-group" data-provides="fileinput">
-																<div class="form-control" data-trigger="fileinput"> <i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div>
-																<span class="input-group-addon fileupload btn btn-info btn-anim btn-file"><i class="fa fa-upload"></i> <span class="fileinput-new btn-text">Select file</span> <span class="fileinput-exists btn-text">Change</span>
-																<input type="file" name="...">
-																</span> <a href="#" class="input-group-addon btn btn-danger btn-anim fileinput-exists" data-dismiss="fileinput"><i class="fa fa-trash"></i><span class="btn-text"> Remove</span></a> 
-															</div>
+														<div class="from-group">
+															<label class="control-label mb-10">Voucher Code</label>
+														</div>
+														<div class="input-group">
+															<input type="text" id="vouchercode" name="vouchercode" class="form-control" placeholder="Voucher Code">
+															<span class="input-group-btn">
+															<button type="button" class="btn btn-danger">Generate</button>
+															</span> 
 														</div>
 													</div>
 													<div class="col-md-12 mt-30">

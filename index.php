@@ -96,7 +96,7 @@
 					<i class="zmdi zmdi-more"></i>
 				</li>
 				<li>
-					<a class="active" href="#">
+					<a class="active" href="index.php">
 						<div class="pull-left"><i class="zmdi zmdi-view-dashboard mr-20"></i><span class="right-nav-text">Dashboard</span></div>
 						<div class="clearfix"></div>
 					</a>
@@ -106,7 +106,7 @@
 					<i class="zmdi zmdi-more"></i>
 				</li>
 				<li>
-					<a href="#">
+					<a href="add-admin.php">
 						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Admin</span></div>
 						<div class="clearfix"></div>
 					</a>
@@ -128,7 +128,7 @@
 					<i class="zmdi zmdi-more"></i>
 				</li>
 				<li>
-					<a href="#">
+					<a href="add-user.php">
 						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add User</span></div>
 						<div class="clearfix"></div>
 					</a>
@@ -150,7 +150,7 @@
 					<i class="zmdi zmdi-more"></i>
 				</li>
 				<li>
-					<a href="#">
+					<a  href="add-storelogin.php">
 						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Store Login</span></div>
 						<div class="clearfix"></div>
 					</a>
@@ -172,7 +172,7 @@
 					<i class="zmdi zmdi-more"></i>
 				</li>
 				<li>
-					<a href="#">
+					<a href="add-voucher.php">
 						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Voucher</span></div>
 						<div class="clearfix"></div>
 					</a>
