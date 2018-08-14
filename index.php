@@ -23,7 +23,7 @@
 	<!-- Custom CSS -->
 	<link href="dist/css/style.css" rel="stylesheet" type="text/css">
 </head>
-
+ 
 <body>
 	<!-- Preloader -->
 	<div class="preloader-it">
