@@ -112,7 +112,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="admin-list.php">
 						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Admin</span></div>
 						<div class="clearfix"></div>
 					</a>
