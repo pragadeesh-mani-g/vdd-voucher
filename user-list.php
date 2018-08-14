@@ -111,7 +111,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="active" href="admin-list.php">
+                    <a href="admin-list.php">
                         <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Admin</span></div>
                         <div class="clearfix"></div>
                     </a>
@@ -127,7 +127,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="user-list.php">
+                    <a class="active" href="user-list.php">
                         <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View User</span></div>
                         <div class="clearfix"></div>
                     </a>
@@ -179,13 +179,13 @@
                 <!-- Title -->
                 <div class="row heading-bg">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h5 class="txt-dark">Admin Table</h5>
+                        <h5 class="txt-dark">User Table</h5>
                     </div>
                     <!-- Breadcrumb -->
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <ol class="breadcrumb">
                             <li><a href="index.php">Dashboard</a></li>
-                            <li class="active"><span>Admin Table</span></li>
+                            <li class="active"><span>User Table</span></li>
                         </ol>
                     </div>
                     <!-- /Breadcrumb -->

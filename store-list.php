@@ -111,7 +111,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="active" href="admin-list.php">
+                    <a href="admin-list.php">
                         <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Admin</span></div>
                         <div class="clearfix"></div>
                     </a>
@@ -143,7 +143,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="store-list.php">
+                    <a class="active" href="store-list.php">
                         <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Store Login</span></div>
                         <div class="clearfix"></div>
                     </a>

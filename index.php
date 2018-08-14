@@ -187,8 +187,8 @@
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">914,001</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">visits</span>
+													<span class="txt-light block counter"><span class="counter-anim">10</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Admin</span>
 												</div>
 												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
 													<i class="zmdi zmdi-male-female txt-light data-right-rep-icon"></i>
@@ -208,11 +208,11 @@
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">914,001</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">visits</span>
+													<span class="txt-light block counter"><span class="counter-anim">15</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">User</span>
 												</div>
 												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
-													<i class="zmdi zmdi-male-female txt-light data-right-rep-icon"></i>
+													<i class="zmdi zmdi-male txt-light data-right-rep-icon"></i>
 												</div>
 											</div>	
 										</div>
@@ -229,11 +229,11 @@
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">914,001</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">visits</span>
+													<span class="txt-light block counter"><span class="counter-anim">14</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Store Login</span>
 												</div>
 												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
-													<i class="zmdi zmdi-male-female txt-light data-right-rep-icon"></i>
+													<i class="zmdi zmdi-store txt-light data-right-rep-icon"></i>
 												</div>
 											</div>	
 										</div>
@@ -250,11 +250,11 @@
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">914,001</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">visits</span>
+													<span class="txt-light block counter"><span class="counter-anim">55</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Voucher</span>
 												</div>
 												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
-													<i class="zmdi zmdi-male-female txt-light data-right-rep-icon"></i>
+													<i class="zmdi zmdi-label txt-light data-right-rep-icon"></i>
 												</div>
 											</div>	
 										</div>
