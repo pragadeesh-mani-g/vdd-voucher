@@ -161,12 +161,6 @@
 				</li>
 				<li>
 					<a href="#">
-						<div class="pull-left"><i class="zmdi zmdi-border-color mr-20"></i><span class="right-nav-text">Edit Voucher</span></div>
-						<div class="clearfix"></div>
-					</a>
-				</li>
-				<li>
-					<a href="#">
 						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Voucher</span></div>
 						<div class="clearfix"></div>
 					</a>
