@@ -155,7 +155,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="user-list.php">
 							<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View User</span></div>
 							<div class="clearfix"></div>
 						</a>
@@ -171,7 +171,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="store-list.php">
 							<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Store Login</span></div>
 							<div class="clearfix"></div>
 						</a>
@@ -187,7 +187,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="voucher-list.php">
 							<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Voucher</span></div>
 							<div class="clearfix"></div>
 						</a>
