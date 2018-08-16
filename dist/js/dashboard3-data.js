@@ -131,7 +131,7 @@ $(document).ready(function(){
 			xkey: 'y',
 			ykeys: ['a', 'b', 'c'],
 			labels: ['A', 'B', 'C'],
-			barColors:['#fec107', '#ff2a00', '#2879ff'],
+			barColors:['#fec107', '#cd1f38', '#2879ff'],
 			hideHover: 'auto',
 			gridLineColor: '#878787',
 			resize: true,

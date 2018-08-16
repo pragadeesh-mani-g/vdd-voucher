@@ -10,8 +10,8 @@
 		<meta name="author" content="hencework"/> -->
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="dist/img/favicon.png">
+		<link rel="icon" href="dist/img/favicon.png" type="image/png">
 		
 		<!-- vector map CSS -->
 		<link href="vendors/bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -31,10 +31,10 @@
 		<div class="wrapper pa-0">
 			<header class="sp-header">
 				<div class="sp-logo-wrap pull-left">
-					<a href="index.php">
+					<!-- <a href="index.php">
 						<img class="brand-img mr-10" src="dist/img/logo.png" alt="brand"/>
 						<span class="brand-text"><img class="brand-img mr-10" src="dist/img/logoword.png" alt="brand"/></span>
-					</a>
+					</a> -->
 				</div>
 				<div class="form-group mb-0 pull-right">
 					<!-- <span class="inline-block pr-10">Don't have an account?</span>
@@ -53,7 +53,7 @@
 								<div class="row">
 									<div class="col-sm-12 col-xs-12">
 										<div class="mb-30">
-											<h3 class="text-center txt-dark mb-10">Sign in to Vdd E-Voucher</h3>
+											<h3 class="text-center txt-dark mb-10"><img src="dist/img/fulllogo.png" alt=""></h3>
 											<h6 class="text-center nonecase-font txt-grey">Enter your details below</h6>
 										</div>	
 										<div class="form-wrap">
@@ -72,7 +72,7 @@
 												<div class="form-group">
 													<div class="checkbox checkbox-primary pr-10 pull-left">
 														<input id="checkbox_2" required="" type="checkbox">
-														<label for="checkbox_2"> Keep me logged in</label>
+														<label for="checkbox_2"> Remember Me</label>
 													</div>
 													<div class="clearfix"></div>
 												</div>

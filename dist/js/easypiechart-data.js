@@ -76,7 +76,7 @@ $(document).ready(function() {
     if( $('#pie_chart_6').length > 0 ){	
 		$('#pie_chart_6').easyPieChart({
 			animate: 3000,
-			barColor : '#ff2a00',
+			barColor : '#cd1f38',
 			lineWidth: 3,
 			scaleColor: false,
 			size:	100,
@@ -145,7 +145,7 @@ $(document).ready(function() {
     if( $('#pie_chart_12').length > 0 ){	
 		$('#pie_chart_12').easyPieChart({
 			animate: 3000,
-			barColor : '#ff2a00',
+			barColor : '#cd1f38',
 			lineWidth: 3,
 			scaleColor: false,
 			size:	100,

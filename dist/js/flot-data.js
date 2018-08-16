@@ -174,7 +174,7 @@ $(function() {
 		}, {
 			label: "Series 3",
 			data: 1,
-			color:"#ff2a00",
+			color:"#cd1f38",
 		}];
 
 		var pie_op = {
@@ -298,7 +298,7 @@ $(function() {
 		/*Defining Data*/
 		var barData = {
 			label: "bar",
-			color: "#ff2a00",
+			color: "#cd1f38",
 			data: [
 				[1354521600000, 1000],
 				[1355040000000, 2000],
@@ -402,7 +402,7 @@ $(function() {
 					color : '#878787'
 				}
 			},
-			colors : ["#ff2a00", "#e91e63", "#fec107"],
+			colors : ["#cd1f38", "#e91e63", "#fec107"],
 			tooltip : true, //activate tooltip
 			tooltipOpts : {
 				content : "%s : %y.0",

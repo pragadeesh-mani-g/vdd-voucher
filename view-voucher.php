@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from hencework.com/theme/hound/full-width-light/export-table.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Oct 2017 06:43:17 GMT -->
+
 
 <head>
     <meta charset="UTF-8" />
@@ -11,13 +11,13 @@
 		<meta name="keywords" content="admin, admin dashboard, admin template, cms, crm, Hound Admin, Houndadmin, premium admin templates, responsive admin, sass, panel, software, ui, visualization, web app, application" />
 		<meta name="author" content="hencework"/> -->
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.png">
-	<link rel="icon" href="dist/img/favicon.png" type="image/png">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="icon" href="dist/img/favicon.png" type="image/png">
 
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
-    <!-- Data table CSS -->
-    <link href="vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <!-- Owl CSS -->
+    <link href="vendors/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="vendors/bower_components/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
     <link href="dist/css/style.css" rel="stylesheet" type="text/css">
@@ -175,17 +175,17 @@
         <!-- Main Content -->
         <div class="page-wrapper">
             <div class="container-fluid">
-
                 <!-- Title -->
                 <div class="row heading-bg">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h5 class="txt-dark">Admin Table</h5>
+                        <h5 class="txt-dark">Voucher</h5>
                     </div>
                     <!-- Breadcrumb -->
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <ol class="breadcrumb">
                             <li><a href="index.php">Dashboard</a></li>
-                            <li class="active"><span>Admin Table</span></li>
+                            <li><a href="voucher-list.php"><span>Voucher List</span></a></li>
+                            <li class="active"><span>Voucher</span></li>
                         </ol>
                     </div>
                     <!-- /Breadcrumb -->
@@ -194,49 +194,26 @@
 
                 <!-- Row -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <div class="panel panel-default card-view">
+                            <div class="panel-heading">
+                                <div class="pull-left">
+                                    <!-- <h6 class="panel-title txt-dark">Bootstrap carousel without caption</h6> -->
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
                             <div class="panel-wrapper collapse in">
                                 <div class="panel-body">
-                                    <div class="table-wrap">
-                                        <div class="table-responsive">
-                                            <table id="example" class="table table-hover display  pb-30">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Id</th>
-                                                        <th>Full Name</th>
-                                                        <th>Email Id</th>
-                                                        <th>Mobile Number</th>
-                                                        <th>Location</th>
-                                                        <th>Voucher Code</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tfoot>
-                                                    <tr>
-                                                        <th>Id</th>
-                                                        <th>Full Name</th>
-                                                        <th>Email Id</th>
-                                                        <th>Mobile Number</th>
-                                                        <th>Location</th>
-                                                        <th>Voucher Code</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </tfoot>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td><a class="view-voucher" href="view-voucher.php">Pragadeesh</a></td>
-                                                        <td>pragadeesh@thegang.in</td>
-                                                        <td>7548872319</td>
-                                                        <td>Coimbatore</td>
-                                                        <td>78945612</td>
-                                                        <td><a class="btn btn-danger btn-xs">Delete</a> <a class="btn btn-danger btn-xs">Redeem</a></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                    <!-- START carousel-->
+                                    <div id="carousel-example-captions-1" data-ride="carousel" class="carousel slide">
+                                        <div role="listbox" class="carousel-inner">
+                                            <div class="item active">
+                                                <p class="voucher-code">78945612</p>
+                                                <img src="dist/img/big/img7.jpg" alt="Third slide image">
+                                            </div>
                                         </div>
                                     </div>
+                                    <!-- END carousel-->
                                 </div>
                             </div>
                         </div>
@@ -269,35 +246,26 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- Data table JavaScript -->
-    <script src="vendors/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
-    <script src="vendors/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-    <script src="vendors/bower_components/datatables.net-buttons/js/buttons.flash.min.js"></script>
-    <script src="vendors/bower_components/jszip/dist/jszip.min.js"></script>
-    <script src="vendors/bower_components/pdfmake/build/pdfmake.min.js"></script>
-    <script src="vendors/bower_components/pdfmake/build/vfs_fonts.js"></script>
+    <!-- Owl JavaScript -->
+    <script src="vendors/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
 
-    <script src="vendors/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
-    <script src="vendors/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
-    <script src="dist/js/export-table-data.js"></script>
+    <!-- Owl Init JavaScript -->
+    <script src="dist/js/owl-data.js"></script>
 
     <!-- Slimscroll JavaScript -->
     <script src="dist/js/jquery.slimscroll.js"></script>
 
-    <!-- Owl JavaScript -->
-    <script src="vendors/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+    <!-- Fancy Dropdown JS -->
+    <script src="dist/js/dropdown-bootstrap-extended.js"></script>
 
     <!-- Switchery JavaScript -->
     <script src="vendors/bower_components/switchery/dist/switchery.min.js"></script>
-
-    <!-- Fancy Dropdown JS -->
-    <script src="dist/js/dropdown-bootstrap-extended.js"></script>
 
     <!-- Init JavaScript -->
     <script src="dist/js/init.js"></script>
 
 </body>
 
-<!-- Mirrored from hencework.com/theme/hound/full-width-light/export-table.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Oct 2017 06:43:21 GMT -->
+
 
 </html>

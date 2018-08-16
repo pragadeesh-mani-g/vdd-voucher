@@ -50,32 +50,8 @@
 					<li class="dropdown auth-drp">
 						<a href="#" class="dropdown-toggle pr-0" data-toggle="dropdown"><img src="dist/img/user1.png" alt="user_auth" class="user-auth-img img-circle"/><span class="user-online-status"></span></a>
 						<ul class="dropdown-menu user-auth-dropdown" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
-							<li>
-								<a href="profile.html"><i class="zmdi zmdi-account"></i><span>Profile</span></a>
-							</li>
-							<li>
-								<a href="#"><i class="zmdi zmdi-card"></i><span>my balance</span></a>
-							</li>
-							<li>
-								<a href="inbox.html"><i class="zmdi zmdi-email"></i><span>Inbox</span></a>
-							</li>
-							<li>
-								<a href="#"><i class="zmdi zmdi-settings"></i><span>Settings</span></a>
-							</li>
-							<li class="divider"></li>
-							<li class="sub-menu show-on-hover">
+							<li class="sub-menu">
 								<a href="#" class="dropdown-toggle pr-0 level-2-drp"><i class="zmdi zmdi-check text-success"></i> available</a>
-								<ul class="dropdown-menu open-left-side">
-									<li>
-										<a href="#"><i class="zmdi zmdi-check text-success"></i><span>available</span></a>
-									</li>
-									<li>
-										<a href="#"><i class="zmdi zmdi-circle-o text-warning"></i><span>busy</span></a>
-									</li>
-									<li>
-										<a href="#"><i class="zmdi zmdi-minus-circle-outline text-danger"></i><span>offline</span></a>
-									</li>
-								</ul>	
 							</li>
 							<li class="divider"></li>
 							<li>
@@ -179,7 +155,7 @@
             <div class="container-fluid pt-25">
 				<!-- Row -->
 				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="panel panel-default card-view pa-0">
 							<div class="panel-wrapper collapse in">
 								<div class="panel-body pa-0">
@@ -199,8 +175,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					</div> -->
+					<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="panel panel-default card-view pa-0">
 							<div class="panel-wrapper collapse in">
 								<div class="panel-body pa-0">
@@ -220,8 +196,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					</div> -->
+					<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="panel panel-default card-view pa-0">
 							<div class="panel-wrapper collapse in">
 								<div class="panel-body pa-0">
@@ -241,7 +217,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="panel panel-default card-view pa-0">
 							<div class="panel-wrapper collapse in">
@@ -251,10 +227,73 @@
 											<div class="row">
 												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
 													<span class="txt-light block counter"><span class="counter-anim">55</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">Voucher</span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Voucher <br> Generated</span>
 												</div>
 												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
 													<i class="zmdi zmdi-label txt-light data-right-rep-icon"></i>
+												</div>
+											</div>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="panel panel-default card-view pa-0">
+							<div class="panel-wrapper collapse in">
+								<div class="panel-body pa-0">
+									<div class="sm-data-box bg-red">
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
+													<span class="txt-light block counter"><span class="counter-anim">25</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Voucher <br> Chennai</span>
+												</div>
+												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
+													<i class="zmdi zmdi-google-maps txt-light data-right-rep-icon"></i>
+												</div>
+											</div>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="panel panel-default card-view pa-0">
+							<div class="panel-wrapper collapse in">
+								<div class="panel-body pa-0">
+									<div class="sm-data-box bg-red">
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
+													<span class="txt-light block counter"><span class="counter-anim">25</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Voucher <br> Coimbartore</span>
+												</div>
+												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
+													<i class="zmdi zmdi-google-maps txt-light data-right-rep-icon"></i>
+												</div>
+											</div>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="panel panel-default card-view pa-0">
+							<div class="panel-wrapper collapse in">
+								<div class="panel-body pa-0">
+									<div class="sm-data-box bg-red">
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
+													<span class="txt-light block counter"><span class="counter-anim">25</span></span>
+													<span class="weight-500 uppercase-font txt-light block font-13">Voucher <br> Redeemed</span>
+												</div>
+												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
+													<i class="zmdi zmdi-mood txt-light data-right-rep-icon"></i>
 												</div>
 											</div>	
 										</div>

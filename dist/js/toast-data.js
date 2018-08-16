@@ -36,7 +36,7 @@ $(document).ready(function() {
             heading: 'Server not responding',
             text: 'It Used Generate E-Voucher And Redeem For Online Portal',
             position: 'top-right',
-            loaderBg:'#ff2a00',
+            loaderBg:'#cd1f38',
             icon: 'warning',
             hideAfter: 3500, 
             stack: 6

@@ -69,7 +69,7 @@ $(function() {
 						"SA": '#fec107',
 						"AU": '#2879ff',
 						"IN": '#e91e63',
-						"GB": '#ff2a00',
+						"GB": '#cd1f38',
 					},
 					attribute: 'fill'
 				}]

@@ -35,7 +35,7 @@ $(document).ready(function() {
 				width: '50',
 				height: '50',
 				resize: true,
-				sliceColors: ['#2879ff', '#e91e63', '#ff2a00']
+				sliceColors: ['#2879ff', '#e91e63', '#cd1f38']
 			});
 		}
 		if( $('#sparkline_4').length > 0 ){
@@ -58,13 +58,13 @@ $(document).ready(function() {
 				barWidth: '10',
 				resize: true,
 				barSpacing: '5',
-				barColor: '#ff2a00'
+				barColor: '#cd1f38'
 			});
 			$('#sparkline_5').sparkline([5, 6, 2, 9, 4, 7, 10, 12,4,7,10], {
 				type: 'line',
 				height: '200',
 				width: '100%',
-				lineColor: '#ff2a00',
+				lineColor: '#cd1f38',
 				fillColor: 'transparent',
 				composite: true,
 				highlightLineColor: 'rgba(0,0,0,.1)',
@@ -117,7 +117,7 @@ $(document).ready(function() {
 					width: '200',
 					height: '200',
 					resize: true,
-					sliceColors: ['#e91e63', '#ff2a00','#2879ff']
+					sliceColors: ['#e91e63', '#cd1f38','#2879ff']
 				});
 			}
 		}	
