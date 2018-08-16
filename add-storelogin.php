@@ -63,7 +63,7 @@
 				<div class="mobile-only-brand pull-left">
 					<div class="nav-header pull-left">
 						<div class="logo-wrap">
-							<a href="index-2.html">
+							<a href="index.php">
 								<img class="brand-img" src="dist/img/logo.png" alt="brand"/>
 								<span class="brand-text"><img class="brand-img mr-10" src="dist/img/logoword.png" alt="brand"/></span>
 							</a>

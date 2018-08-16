@@ -31,7 +31,7 @@
 		<div class="wrapper pa-0">
 			<header class="sp-header">
 				<div class="sp-logo-wrap pull-left">
-					<a href="index-2.html">
+					<a href="index.php">
 						<img class="brand-img mr-10" src="dist/img/logo.png" alt="brand"/>
 						<span class="brand-text"><img class="brand-img mr-10" src="dist/img/logoword.png" alt="brand"/></span>
 					</a>
