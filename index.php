@@ -77,7 +77,7 @@
 						<div class="clearfix"></div>
 					</a>
 				</li>
-				<li class="navigation-header">
+				<!-- <li class="navigation-header">
 					<span>Admin</span> 
 					<i class="zmdi zmdi-more"></i>
 				</li>
@@ -108,7 +108,7 @@
 						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View User</span></div>
 						<div class="clearfix"></div>
 					</a>
-				</li>
+				</li> -->
 				<li class="navigation-header">
 					<span>Store Login</span> 
 					<i class="zmdi zmdi-more"></i>
@@ -129,12 +129,12 @@
 					<span>Voucher</span> 
 					<i class="zmdi zmdi-more"></i>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="add-voucher.php">
 						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Voucher</span></div>
 						<div class="clearfix"></div>
 					</a>
-				</li>
+				</li> -->
 				<li>
 					<a href="voucher-list.php">
 						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Voucher</span></div>
@@ -155,69 +155,6 @@
             <div class="container-fluid pt-25">
 				<!-- Row -->
 				<div class="row">
-					<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="panel panel-default card-view pa-0">
-							<div class="panel-wrapper collapse in">
-								<div class="panel-body pa-0">
-									<div class="sm-data-box bg-red">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">10</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">Admin</span>
-												</div>
-												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
-													<i class="zmdi zmdi-male-female txt-light data-right-rep-icon"></i>
-												</div>
-											</div>	
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-					<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="panel panel-default card-view pa-0">
-							<div class="panel-wrapper collapse in">
-								<div class="panel-body pa-0">
-									<div class="sm-data-box bg-red">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">15</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">User</span>
-												</div>
-												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
-													<i class="zmdi zmdi-male txt-light data-right-rep-icon"></i>
-												</div>
-											</div>	
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-					<!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="panel panel-default card-view pa-0">
-							<div class="panel-wrapper collapse in">
-								<div class="panel-body pa-0">
-									<div class="sm-data-box bg-red">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="col-xs-6 text-center pl-0 pr-0 data-wrap-left">
-													<span class="txt-light block counter"><span class="counter-anim">14</span></span>
-													<span class="weight-500 uppercase-font txt-light block font-13">Store Login</span>
-												</div>
-												<div class="col-xs-6 text-center  pl-0 pr-0 data-wrap-right">
-													<i class="zmdi zmdi-store txt-light data-right-rep-icon"></i>
-												</div>
-											</div>	
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="panel panel-default card-view pa-0">
 							<div class="panel-wrapper collapse in">

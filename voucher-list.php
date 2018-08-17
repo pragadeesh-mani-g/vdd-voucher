@@ -30,147 +30,124 @@
     </div>
     <!--/Preloader-->
     <div class="wrapper theme-1-active pimary-color-red">
-        <!-- Top Menu Items -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="mobile-only-brand pull-left">
-                <div class="nav-header pull-left">
-                    <div class="logo-wrap">
-                        <a href="index.php">
-                            <img class="brand-img" src="dist/img/logo.png" alt="brand" />
-                            <span class="brand-text"><img class="brand-img mr-10" src="dist/img/logoword.png" alt="brand"/></span>
-                        </a>
-                    </div>
-                </div>
-                <a id="toggle_nav_btn" class="toggle-left-nav-btn inline-block ml-20 pull-left" href="javascript:void(0);"><i class="zmdi zmdi-menu"></i></a>
-                <a id="toggle_mobile_nav" class="mobile-only-view" href="javascript:void(0);"><i class="zmdi zmdi-more"></i></a>
-            </div>
-            <div id="mobile_only_nav" class="mobile-only-nav pull-right">
-                <ul class="nav navbar-right top-nav pull-right">
-                    <li class="dropdown auth-drp">
-                        <a href="#" class="dropdown-toggle pr-0" data-toggle="dropdown"><img src="dist/img/user1.png" alt="user_auth" class="user-auth-img img-circle" /><span class="user-online-status"></span></a>
-                        <ul class="dropdown-menu user-auth-dropdown" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
-                            <li>
-                                <a href="profile.html"><i class="zmdi zmdi-account"></i><span>Profile</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="zmdi zmdi-card"></i><span>my balance</span></a>
-                            </li>
-                            <li>
-                                <a href="inbox.html"><i class="zmdi zmdi-email"></i><span>Inbox</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="zmdi zmdi-settings"></i><span>Settings</span></a>
-                            </li>
-                            <li class="divider"></li>
-                            <li class="sub-menu show-on-hover">
-                                <a href="#" class="dropdown-toggle pr-0 level-2-drp"><i class="zmdi zmdi-check text-success"></i> available</a>
-                                <ul class="dropdown-menu open-left-side">
-                                    <li>
-                                        <a href="#"><i class="zmdi zmdi-check text-success"></i><span>available</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="zmdi zmdi-circle-o text-warning"></i><span>busy</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="zmdi zmdi-minus-circle-outline text-danger"></i><span>offline</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <a href="#"><i class="zmdi zmdi-power"></i><span>Log Out</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- /Top Menu Items -->
-
-        <!-- Left Sidebar Menu -->
-        <div class="fixed-sidebar-left">
-            <ul class="nav navbar-nav side-nav nicescroll-bar">
-                <li class="navigation-header">
-                    <span>Dashboard</span>
-                    <i class="zmdi zmdi-more"></i>
-                </li>
-                <li>
-                    <a href="index.php">
-                        <div class="pull-left"><i class="zmdi zmdi-view-dashboard mr-20"></i><span class="right-nav-text">Dashboard</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li class="navigation-header">
-                    <span>Admin</span>
-                    <i class="zmdi zmdi-more"></i>
-                </li>
-                <li>
-                    <a href="add-admin.php">
-                        <div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Admin</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="admin-list.php">
-                        <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Admin</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li class="navigation-header">
-                    <span>User</span>
-                    <i class="zmdi zmdi-more"></i>
-                </li>
-                <li>
-                    <a href="add-user.php">
-                        <div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add User</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="user-list.php">
-                        <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View User</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li class="navigation-header">
-                    <span>Store Login</span>
-                    <i class="zmdi zmdi-more"></i>
-                </li>
-                <li>
-                    <a href="add-storelogin.php">
-                        <div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Store Login</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="store-list.php">
-                        <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Store Login</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li class="navigation-header">
-                    <span>Voucher</span>
-                    <i class="zmdi zmdi-more"></i>
-                </li>
-                <li>
-                    <a href="add-voucher.php">
-                        <div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Voucher</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-                <li>
-                    <a class="active" href="voucher-list.php">
-                        <div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Voucher</span></div>
-                        <div class="clearfix"></div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!-- /Left Sidebar Menu -->
-
-        <!-- Right Sidebar Backdrop -->
-        <div class="right-sidebar-backdrop"></div>
-        <!-- /Right Sidebar Backdrop -->
+		<!-- Top Menu Items -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="mobile-only-brand pull-left">
+				<div class="nav-header pull-left">
+					<div class="logo-wrap">
+						<a href="index.php">
+							<img class="brand-img" src="dist/img/logo.png" alt="brand"/>
+							<span class="brand-text"><img class="brand-img mr-10" src="dist/img/logoword.png" alt="brand"/></span>
+						</a>
+					</div>
+				</div>	
+				<a id="toggle_nav_btn" class="toggle-left-nav-btn inline-block ml-20 pull-left" href="javascript:void(0);"><i class="zmdi zmdi-menu"></i></a>
+				<a id="toggle_mobile_nav" class="mobile-only-view" href="javascript:void(0);"><i class="zmdi zmdi-more"></i></a>
+			</div>
+			<div id="mobile_only_nav" class="mobile-only-nav pull-right">
+				<ul class="nav navbar-right top-nav pull-right">
+					<li class="dropdown auth-drp">
+						<a href="#" class="dropdown-toggle pr-0" data-toggle="dropdown"><img src="dist/img/user1.png" alt="user_auth" class="user-auth-img img-circle"/><span class="user-online-status"></span></a>
+						<ul class="dropdown-menu user-auth-dropdown" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
+							<li class="sub-menu">
+								<a href="#" class="dropdown-toggle pr-0 level-2-drp"><i class="zmdi zmdi-check text-success"></i> available</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#"><i class="zmdi zmdi-power"></i><span>Log Out</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>	
+		</nav>
+		<!-- /Top Menu Items -->
+		
+		<!-- Left Sidebar Menu -->
+		<div class="fixed-sidebar-left">
+			<ul class="nav navbar-nav side-nav nicescroll-bar">
+				<li class="navigation-header">
+					<span>Dashboard</span> 
+					<i class="zmdi zmdi-more"></i>
+				</li>
+				<li>
+					<a class="active" href="index.php">
+						<div class="pull-left"><i class="zmdi zmdi-view-dashboard mr-20"></i><span class="right-nav-text">Dashboard</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<!-- <li class="navigation-header">
+					<span>Admin</span> 
+					<i class="zmdi zmdi-more"></i>
+				</li>
+				<li>
+					<a href="add-admin.php">
+						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Admin</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<li>
+					<a href="admin-list.php">
+						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Admin</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<li class="navigation-header">
+					<span>User</span> 
+					<i class="zmdi zmdi-more"></i>
+				</li>
+				<li>
+					<a href="add-user.php">
+						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add User</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<li>
+					<a href="user-list.php">
+						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View User</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li> -->
+				<li class="navigation-header">
+					<span>Store Login</span> 
+					<i class="zmdi zmdi-more"></i>
+				</li>
+				<li>
+					<a  href="add-storelogin.php">
+						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Store Login</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<li>
+					<a href="store-list.php">
+						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Store Login</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<li class="navigation-header">
+					<span>Voucher</span> 
+					<i class="zmdi zmdi-more"></i>
+				</li>
+				<!-- <li>
+					<a href="add-voucher.php">
+						<div class="pull-left"><i class="zmdi zmdi-account-add mr-20"></i><span class="right-nav-text">Add Voucher</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li> -->
+				<li>
+					<a href="voucher-list.php">
+						<div class="pull-left"><i class="zmdi zmdi-view-list-alt mr-20"></i><span class="right-nav-text">View Voucher</span></div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /Left Sidebar Menu -->
+				
+		
+		<!-- Right Sidebar Backdrop -->
+		<div class="right-sidebar-backdrop"></div>
+		<!-- /Right Sidebar Backdrop -->
 
         <!-- Main Content -->
         <div class="page-wrapper">
@@ -231,7 +208,7 @@
                                                         <td>7548872319</td>
                                                         <td>Coimbatore</td>
                                                         <td>78945612</td>
-                                                        <td><a class="btn btn-danger btn-xs">Delete</a> <a class="btn btn-danger btn-xs">Redeem</a></td>
+                                                        <td><a class="btn btn-danger btn-xs">Redeem</a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
